@@ -9,7 +9,6 @@ const Navigation = () => {
         <ul>
           <NavLink
             to={"/film"}
-            onClick={() => window.location.reload()}
             className={({ isActive }) => (isActive ? "nav-active" : "")}
           >
             Accueil{" "}
